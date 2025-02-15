@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+	<ApplicationIcon>projectIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="Resources\cruiseFavicon.ico" />
+		<EmbeddedResource Include="Resources\cruiseLogo.jpg" />
+		<EmbeddedResource Include="Resources\slideshowImage2.jpg" />
+		<EmbeddedResource Include="Resources\slideshowImage3.jpg" />
+		<EmbeddedResource Include="Resources\slideshowImage4.jpg" />
+		<EmbeddedResource Include="Resources\slideshowImage5.jpg" />
+		<EmbeddedResource Include="Resources\formbackgroundImage.jpg" />
+		<EmbeddedResource Include="Resources\facebookIcon.png" />
+		<EmbeddedResource Include="Resources\instagramIcon.png" />
+		<EmbeddedResource Include="Resources\twitterIcon.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="MySql.Data" Version="9.1.0" />
+	</ItemGroup>
+
+
+</Project>
